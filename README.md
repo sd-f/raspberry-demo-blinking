@@ -16,7 +16,7 @@ Compile and Run:
   - Run "mvn clean install" in root directory of my repo
   - You will get a "blinking-with-pi4j.jar" in the target folder
   - (optional if you developing on another device then the pi iteselt) copy jar to your pi
-  - Run command in console "sudo java -jar blinking-with-pi4j.jar"
+  - Run command in console "sudo java -jar blinking-with-pi4j.jar" (sry some parts of pi4j need root permissions)
   - And if you have a led attached to you GPIO 1 port you should see it blinking away for a few seconds...
   - Have fun..
 
