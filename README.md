@@ -5,7 +5,7 @@ Demo Blinking LED on Raspberry B+ with jdk8, pi4j and maven
 
 You need:
   - Raspberry B+ (i guess it will work on all the others the same way)
-  - Raspbarian (nearly everything you need is set up already and pre-installed
+  - Raspbarian (nearly everything you need is pre-installed and set up already)
   - Java JDK8 (at least i used it because it came pre-installed on pi, if you do not already have it --> http://www.raspberrypi.org/oracle-java-on-raspberry-pi/)
   - WiringPi (follow steps on http://wiringpi.com/download-and-install/)
   - PI4J (I installed pi4j with the guide on http://pi4j.com/install.html very easy)
@@ -17,7 +17,7 @@ Compile and Run:
   - You will get a "blinking-with-pi4j.jar" in the target folder
   - (optional if you developing on another device then the pi iteselt) copy jar to your pi
   - Run command in console "sudo java -jar blinking-with-pi4j.jar" (sry some parts of pi4j need root permissions)
-  - And if you have a led attached to you GPIO 1 (http://pi4j.com/example/control.html) port you should see it blinking away for a few seconds...
+  - And if you have a led attached to your GPIO 1 port (http://pi4j.com/example/control.html) you should see it blinking away for a few seconds...
   - Have fun..
 
 I did this because of the Maven setup and giving JDK8 on pi a chance ;) and i must say it worked from the first moment
