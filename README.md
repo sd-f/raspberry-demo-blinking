@@ -17,7 +17,9 @@ Compile and Run:
   - You will get a "blinking-with-pi4j.jar" in the target folder
   - (optional if you developing on another device then the pi iteselt) copy jar to your pi
   - Run command in console "sudo java -jar blinking-with-pi4j.jar" (sry some parts of pi4j need root permissions)
-  - And if you have a led attached to you GPIO 1 port you should see it blinking away for a few seconds...
+  - And if you have a led attached to you GPIO 1 (http://pi4j.com/example/control.html) port you should see it blinking away for a few seconds...
   - Have fun..
 
 I did this because of the Maven setup and giving JDK8 on pi a chance ;) and i must say it worked from the first moment
+
+Sample code adopted from http://pi4j.com/example/control.html
