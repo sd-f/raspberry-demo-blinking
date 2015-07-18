@@ -25,4 +25,4 @@ I did this because of the Maven setup and giving JDK8 on pi a chance ;) and i mu
 Sample code adopted from http://pi4j.com/example/control.html
 
 ## Licence
-JepiAlert is licenced under the under the [WTFPL license](http://www.wtfpl.net/).
+raspberry-demo-blinking is licenced under the under the [WTFPL license](http://www.wtfpl.net/).
